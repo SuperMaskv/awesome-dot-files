@@ -6,6 +6,7 @@
 * flutter(including dart)
   * macos initial script
     > tested on macOS 12.0.1 with zsh
+  * linux initial script
 
 ## Roadmap
 
