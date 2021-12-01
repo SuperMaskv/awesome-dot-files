@@ -21,7 +21,3 @@ source $HOME/.zprofile
 flutter doctor -v
 flutter precache
 flutter --version
-
-
-
-
