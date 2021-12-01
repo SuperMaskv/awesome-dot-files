@@ -1,3 +1,3 @@
 @echo off
-copy settings.xml %HOMEDRIVE%%HOMEPATH%\.m2\settings.xml /y
+copy settings.xml %userprofile%\.m2\settings.xml /y
 pause
