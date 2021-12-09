@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-FLUTTER_VERSION="2.5.3"
+FLUTTER_VERSION="2.8.0"
 FLUTTER_CHANNEL="stable"
 DOWNLOAD_PATH="https://storage.flutter-io.cn/flutter_infra_release/releases/$FLUTTER_CHANNEL/macos/flutter_macos_$FLUTTER_VERSION-$FLUTTER_CHANNEL.zip"
 SDK_DOWNLOADED_PATH="$HOME/Downloads/flutter_sdk.zip"
