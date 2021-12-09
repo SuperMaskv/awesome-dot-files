@@ -5,6 +5,7 @@
 * Anaconda
 * maven
 * gradle
+* docker
 * flutter(including dart) 2.8.0
   * macos initial script
     > tested on macOS 12.0.1 with zsh
