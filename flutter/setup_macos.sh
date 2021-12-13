@@ -16,6 +16,7 @@ echo "export FLUTTER_STORAGE_BASE_URL=\"https://storage.flutter-io.cn\"">>$HOME/
 echo "export PATH=\"\$PATH:$RAW_PATH/flutter/bin\"">>$HOME/.zprofile
 echo "export PATH=\"\$PATH:$RAW_PATH/flutter/.pub-cache/bin\"">>$HOME/.zprofile
 echo "export PATH=\"\$PATH:$RAW_PATH/flutter/bin/cache/dart-sdk/bin\"">>$HOME/.zprofile
+echo "export NO_PROXY=localhost,127.0.0.1">>$HOME/.zprofile
 
 source $HOME/.zprofile
 flutter doctor -v
