@@ -36,8 +36,7 @@ elif [[ "$OSTYPE" == "linux-gnu"*  ]]; then
     echo "export PATH=\"\$PATH:$RAW_PATH/flutter/.pub-cache/bin\"">>$HOME/.bashrc
     echo "export PATH=\"\$PATH:$RAW_PATH/flutter/bin/cache/dart-sdk/bin\"">>$HOME/.bashrc
     echo "export NO_PROXY=localhost,127.0.0.1">>$HOME/.bashrc
-
-source $HOME/.bashrc
+    source $HOME/.bashrc
 else
     echo "unknow platform"
 fi
