@@ -1,3 +1,3 @@
 @echo off
-cp .condarc %USERPROFILE%\.condarc
+copy .condarc %USERPROFILE%\.condarc
 pause
