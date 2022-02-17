@@ -5,7 +5,7 @@
 | --- | --- | --- |
 | Anaconda | `macos` `linux` `windows` | |
 | docker | `macos` | |
-| flutter | `macos` `linux` | including dart,version 2.8.0 |
+| flutter | `macos` `linux` | including dart,version 2.16.1 |
 | gradle | `macos` `linux` | |
 | maven | `macos` `linux` `windows` | |
 | pypi | `macos` `linux` `windows` | |
