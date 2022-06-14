@@ -1,10 +1,15 @@
 #!/usr/bin/env bash
-FLUTTER_VERSION="2.10.5"
+FLUTTER_VERSION="3.0.2"
 FLUTTER_CHANNEL="stable"
 
 if [[ "$OSTYPE" == "darwin"* ]]; then
     echo "MacOS detect"
     DOWNLOAD_PATH="https://storage.flutter-io.cn/flutter_infra_release/releases/$FLUTTER_CHANNEL/macos/flutter_macos_$FLUTTER_VERSION-$FLUTTER_CHANNEL.zip"
+    ARCH=`uname -m`
+    if [ "$ARCH" = "arm64" ]; then
+        echo "arm64 detect"
+        DOWNLOAD_PATH="https://storage.flutter-io.cn/flutter_infra_release/releases/$FLUTTER_CHANNEL/macos/flutter_macos_arm64_$FLUTTER_VERSION-$FLUTTER_CHANNEL.zip"
+    fi
     SDK_DOWNLOADED_PATH="$HOME/Downloads/flutter_sdk.tar.xz"
     echo "download flutter sdk to $SDK_DOWNLOADED_PATH"
     curl -o $SDK_DOWNLOADED_PATH $DOWNLOAD_PATH
