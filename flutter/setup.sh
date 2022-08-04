@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-FLUTTER_VERSION="3.0.3"
+FLUTTER_VERSION="3.0.5"
 FLUTTER_CHANNEL="stable"
 
 if [[ "$OSTYPE" == "darwin"* ]]; then
